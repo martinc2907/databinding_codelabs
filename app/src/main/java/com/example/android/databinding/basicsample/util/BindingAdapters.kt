@@ -68,6 +68,7 @@ fun setProgress(progressBar: ProgressBar, likes: Int, max: Int) {
     progressBar.progress = (likes * max / 5).coerceAtMost(max)
 }
 
+
 /**
  * Unused Binding Adapter to replace the Binding Converter that hides a view if the number
  * of likes is zero.
